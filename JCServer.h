@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
 
-@interface JDServer : NSObject {}
+@interface JCServer: NSObject {}
 -(void) draw;
 @end
