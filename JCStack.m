@@ -13,7 +13,7 @@
 -(void) print {
   JCNode *it = top;
   while (it != nil) {
-    NSLog(@"%d", [it getValue]);
+    NSLog(@"%d", [[it getValue] intValue]);
     it = [it getNext];
   }
 }

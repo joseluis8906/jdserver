@@ -1,13 +1,13 @@
-#import "JCNode.h";
+#import "JCNode.h"
 
 @implementation JCNode
--(void) setValue: (int)newValue {
+-(void) setValue: (NSNumber *)newValue {
   value = newValue;
 }
 -(void) setNext: (JCNode *)newNext {
   next = newNext;
 }
--(int) getValue {
+-(NSNumber *) getValue {
   return value;
 }
 -(JCNode *) getNext {

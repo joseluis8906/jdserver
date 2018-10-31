@@ -2,11 +2,11 @@
 
 @interface JCNode: NSObject {
   @protected
-    int value;
+    NSNumber *value;
     JCNode *next;
 }
--(void) setValue: (int)newValue;
+-(void) setValue: (NSNumber *)newValue;
 -(void) setNext: (JCNode *)newNext;
--(int) getValue;
+-(NSNumber *) getValue;
 -(JCNode *) getNext;
 @end
